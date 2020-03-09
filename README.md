@@ -43,4 +43,4 @@ Rollout repository integration creates the following directory structure:
 
 # Running the commands
 
-docker run -it --rm --name sko-rollout -v "$PWD":$HOME/github/SKO-Rollout -w $HOME/github/SKO-Rollout darinpope/rollout-python-example:latest python sko.py
+`docker run -it --rm --name sko-rollout -v "$PWD":$HOME/github/SKO-Rollout -w $HOME/github/SKO-Rollout darinpope/rollout-python-example:latest python sko.py`
