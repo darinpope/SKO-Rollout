@@ -40,3 +40,7 @@ Rollout repository integration creates the following directory structure:
 
 - All experiments are located under the experiment folder
 - All archived experiments are located under the `experiments/archived` folder
+
+# Running the commands
+
+docker run -it --rm --name sko-rollout -v "$PWD":$HOME/github/SKO-Rollout -w $HOME/github/SKO-Rollout darinpope/rollout-python-example:latest python sko.py
